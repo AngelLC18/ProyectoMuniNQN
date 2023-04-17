@@ -24,4 +24,4 @@ Ejercicio:
 		*Obtener cantidad de menos y mayores de edad
 
 	Diagrama:
-	<img src ="https://imgur.com/a/iyaA3dW" alt = "Diagrama del Proyecto">
+	![Diagrama del proyecto](https://github.com/AngelLC18/ProyectoMuniNQN/blob/main/Images/Diagrama%20ProyectoMuniNQN.drawio.png)
