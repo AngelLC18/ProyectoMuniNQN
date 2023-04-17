@@ -1,5 +1,10 @@
 # ProyectoMuniNQN
 Ejercicio:
+	Se debe realizar una petición a un endpoint el cual le ortogara información sobre 100 personas en una DB.
+	Endpoint: https://weblogin.muninqn.gov.ar/api/Examen
+	
+	Una vez obtenidos los datos, se necesita que realice las siguientes tarea:
+	
 	Crear un CRUD o ABM web que permita inscribir personas a cursos de capacitación, con las siguientes restricciones y requerimientos:
 
 	Para las personas se pide registrar su nombre, apellido, DNI, género y edad. No puede haber personas duplicadas en el sistema (Insertar los datos obtenidos de la api).
