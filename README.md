@@ -19,3 +19,4 @@ Ejercicio:
 		*Obtener cantidad de menos y mayores de edad
 
 	Diagrama:
+	![Diagrama del Proyecto] (https://imgur.com/a/iyaA3dW)!
