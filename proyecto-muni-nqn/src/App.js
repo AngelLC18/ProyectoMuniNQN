@@ -1,6 +1,8 @@
 
 import './App.css';
 import { useState } from 'react';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import Showinfo from './components/ShowInfo';
 
 const Test = () => {
     const [form, setForm] = useState({
