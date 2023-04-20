@@ -5,7 +5,7 @@ function listaPersonas() {
   const [personas, setPersonas] = useState([]);
 
   useEffect(() => {
-    axios.get('https://jsonplaceholder.typicode.com/users')
+    axios.get('https://weblogin.muninqn.gov.ar/api/Examen')
       .then(response => {
         setPersonas(response.data);
       })
@@ -17,7 +17,7 @@ function listaPersonas() {
   return (
     <ul>
       {personas.map(persona => (
-        <li key={persona.id}>{persona.email}</li>
+        <li key={persona.id}>{persona.dni} {persona.genero}</li>
       ))}
     </ul>
   );
