@@ -1,8 +1,9 @@
 
 import './App.css';
 import { useState } from 'react';
-import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Showinfo from './components/ShowInfo';
+import React from 'react';
 
 const Test = () => {
     const [form, setForm] = useState({
@@ -142,4 +143,14 @@ const Test = () => {
     );
 };
 
-export default Test;
+function App(){
+  return(
+    <BrowserRouter>
+        <Routes>
+          <Route path ='/' element={<Showinfo></Showinfo>}></Route>
+        </Routes>
+    </BrowserRouter>
+  )
+
+}
+export default App;
