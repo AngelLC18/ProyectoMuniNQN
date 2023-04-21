@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Table } from "react-bootstrap";
 
 const PersonTable = () => {
   const [people, setPeople] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("https://weblogin.muninqn.gov.ar/api/Examen/personas")
+    axios.get("https://weblogin.muninqn.gov.ar/api/Examen/personas")
       .then((response) => {
         const uniquePeople = Array.from(
           new Set(response.data.map((person) => person.DNI))
@@ -20,7 +18,9 @@ const PersonTable = () => {
   }, []);
 
   return (
-    <Table striped bordered hover>
+    <div>
+    <h1>Personas</h1>
+    <table>
       <thead>
         <tr>
           <th>Nombre</th>
@@ -41,7 +41,8 @@ const PersonTable = () => {
           </tr>
         ))}
       </tbody>
-    </Table>
+      </table>
+    </div>
   );
 }
 

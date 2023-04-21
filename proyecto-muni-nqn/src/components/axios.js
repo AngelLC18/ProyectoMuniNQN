@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import React from 'react';
 
-function App() {
+function BdConexion() {
   const [personas, setPersonas] = useState([]);
 
   useEffect(() => {
@@ -46,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default  BdConexion;

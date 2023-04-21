@@ -3,6 +3,7 @@ import './App.css';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Showinfo from './components/ShowInfo';
+import BdConexion from './components/axios';
 import React from 'react';
 /*
 const Test = () => {
@@ -147,7 +148,7 @@ function App(){
   return(
     <BrowserRouter>
         <Routes>
-          <Route path ='/' element={<Showinfo></Showinfo>}></Route>
+          <Route path ='/' element={<BdConexion></BdConexion>}></Route>
         </Routes>
     </BrowserRouter>
   )
