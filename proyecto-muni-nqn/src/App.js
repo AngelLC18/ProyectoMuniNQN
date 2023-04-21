@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Showinfo from './components/ShowInfo';
 import React from 'react';
-
+/*
 const Test = () => {
     const [form, setForm] = useState({
         nombre: '',
@@ -142,7 +142,7 @@ const Test = () => {
         </>
     );
 };
-
+*/
 function App(){
   return(
     <BrowserRouter>
